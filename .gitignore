@@ -7,6 +7,6 @@
 *.toc
 PDF/
 *.synctex.gz
-iamas_yamato.pdf
-iamas_yamato.tex
 _TBC_*.pdf
+.gitignore
+論文画像/
