@@ -1,0 +1,32 @@
+# LaTeX一時ファイルとコンパイル生成物
+*.aux
+*.log
+*.toc
+*.dvi
+*.out
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.synctex.gz
+*.nav
+*.snm
+*.vrb
+*.lof
+*.lot
+
+# LaTeXエディタ固有ファイル
+*.bak
+*.sav
+*~
+
+# macOS
+.DS_Store
+
+# 作業中のPDF（主査副査共有用）
+# 必要に応じてコメント解除
+# _TBC_*.pdf
+
+# Research folder (Google Drive symlink)
+research/
+research

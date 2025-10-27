@@ -1,0 +1,50 @@
+% IAMAS Master's Thesis LaTeX Format ver.1.0 - English Version
+
+% For uplatex compilation (supports UTF-8 special characters)
+\documentclass[uplatex,dvipdfmx]{ujarticle}
+% For platex compilation, comment above and uncomment below:
+%\documentclass[dvipdfmx]{jsarticle}
+
+\usepackage[top=25truemm,bottom=30truemm,left=30truemm,right=30truemm]{geometry}
+
+\usepackage{iamas}
+\usepackage{amsmath}
+\usepackage[dvipdfmx]{graphicx}
+\usepackage{plext}
+\usepackage{ascmac}
+\usepackage{url}
+\usepackage{wrapfig}
+\usepackage{setspace}
+\usepackage{chicago}
+\usepackage{afterpage}
+\usepackage{here}
+\usepackage{caption}
+
+% Multi-language support packages
+\usepackage{otf}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[prefernoncjk]{pxcjkcat}
+
+\begin{document}
+
+% Include sections
+\input{sections_en/00_frontmatter}
+
+% Table of contents
+\tableofcontents
+
+\afterpage{\clearpage}
+\newpage
+
+% Main content
+\input{sections_en/01_introduction}
+\input{sections_en/02_polyrhythm}
+\input{sections_en/03_multilayered}
+\input{sections_en/04_composition}
+\input{sections_en/05_embodiment}
+\input{sections_en/06_discussion}
+\input{sections_en/07_conclusion}
+\input{sections_en/08_appendix}
+
+\end{document}
