@@ -28,5 +28,5 @@
 # _TBC_*.pdf
 
 # Research folder (Google Drive symlink)
-research/
-research
+docs/research/
+docs/research
